@@ -12,10 +12,11 @@
         <name>Английский для дошкольников — групповые занятия</name>
         <price>1865</price>
         <currencyId>RUB</currencyId>
-        <categoryId>12345</categoryId>
+        <!-- ЗАМЕНИ НА РЕАЛЬНЫЙ categoryId ИЗ РУБРИКАТОРА ДЛЯ ДЕТЕЙ/ДОШКОЛЬНИКОВ -->
+        <categoryId>10018</categoryId>
         <description>Занятия для дошкольников в игровой форме, развитие базовых навыков английского.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Группа</param>
         <param name="Целевая аудитория">Дошкольники</param>
       </offer>
@@ -26,10 +27,11 @@
         <name>Английский для дошкольников — индивидуальные занятия</name>
         <price>2845</price>
         <currencyId>RUB</currencyId>
-        <categoryId>12345</categoryId>
+        <!-- Используй тот же categoryId, что и выше, если рубрика одна -->
+        <categoryId>10018</categoryId>
         <description>Персональные занятия для дошкольников с учётом индивидуальных особенностей ребёнка.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Индивидуально</param>
         <param name="Целевая аудитория">Дошкольники</param>
       </offer>
@@ -40,10 +42,11 @@
         <name>Английский для школьников — групповые занятия</name>
         <price>1865</price>
         <currencyId>RUB</currencyId>
-        <categoryId>67890</categoryId>
+        <!-- ЗАМЕНИ НА РЕАЛЬНЫЙ categoryId ДЛЯ ШКОЛЬНИКОВ -->
+        <categoryId>10018</categoryId>
         <description>Программа для школьников, направленная на развитие разговорных навыков и грамматики.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Группа</param>
         <param name="Целевая аудитория">Школьники</param>
       </offer>
@@ -54,10 +57,10 @@
         <name>Английский для школьников — индивидуальные занятия</name>
         <price>2845</price>
         <currencyId>RUB</currencyId>
-        <categoryId>67890</categoryId>
+        <categoryId>10018</categoryId>
         <description>Индивидуальные занятия для школьников с адаптацией программы под уровень и цели ученика.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Индивидуально</param>
         <param name="Целевая аудитория">Школьники</param>
       </offer>
@@ -68,10 +71,11 @@
         <name>Английский для взрослых — групповые занятия</name>
         <price>1865</price>
         <currencyId>RUB</currencyId>
-        <categoryId>11111</categoryId>
+        <!-- ЗАМЕНИ НА РЕАЛЬНЫЙ categoryId ДЛЯ ВЗРОСЛЫХ -->
+        <categoryId>10018</categoryId>
         <description>Групповые курсы для взрослых: от начального до продвинутого уровня.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Группа</param>
         <param name="Целевая аудитория">Взрослые</param>
       </offer>
@@ -82,10 +86,10 @@
         <name>Английский для взрослых — индивидуальные занятия</name>
         <price>2845</price>
         <currencyId>RUB</currencyId>
-        <categoryId>11111</categoryId>
+        <categoryId>10018</categoryId>
         <description>Персональный подход к изучению английского для взрослых, гибкая программа.</description>
-        <param name="Продолжительность курса">минимум 3 месяца</param>
-        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Продолжительность">минимум 3 месяца</param>
+        <param name="Расписание">2 занятия в неделю по 60 минут</param>
         <param name="Формат">Индивидуально</param>
         <param name="Целевая аудитория">Взрослые</param>
       </offer>
@@ -96,10 +100,11 @@
         <name>Английский для пенсионеров — проект «Московское долголетие»</name>
         <price>0</price>
         <currencyId>RUB</currencyId>
-        <categoryId>22222</categoryId>
+        <!-- ЗАМЕНИ НА categoryId ДЛЯ ПЕНСИОНЕРОВ/ДОП. ОБРАЗОВАНИЯ -->
+        <categoryId>10018</categoryId>
         <description>Бесплатные занятия английским языком для пенсионеров в рамках проекта «Московское долголетие».</description>
-        <param name="Продолжительность курса">в соответствии с планом проекта (минимум 3 месяца)</param>
-        <param name="План">по расписанию проекта, занятия по 60 минут</param>
+        <param name="Продолжительность">в соответствии с планом проекта (минимум 3 месяца)</param>
+        <param name="Расписание">по расписанию проекта, занятия по 60 минут</param>
         <param name="Формат">Группа</param>
         <param name="Целевая аудитория">Пенсионеры</param>
       </offer>
