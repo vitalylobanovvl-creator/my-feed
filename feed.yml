@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-04-27">
+  <shop>
+    <name>LEWIS FOREMAN SCHOOL</name>
+    <company>LEWIS FOREMAN SCHOOL</company>
+    <url>https://lewisforemanschool.ru</url>
+    <categories>
+      <category id="20000">Образование</category>
+      <category id="20001" parentId="20000">Английский язык</category>
+    </categories>
+    <offers>
+      <offer id="service_group_1">
+        <name>Групповые занятия онлайн и оффлайн</name>
+        <categoryId>20001</categoryId>
+        <description>Занятия в группе проводятся при любом составе. Если участники не могут посетить урок, занятия проходят индивидуально по цене группы. Правило действует и для новых групп.</description>
+        <price>2665</price>
+        <currencyId>RUB</currencyId>
+      </offer>
+      <offer id="service_group_2">
+        <name>Индивидуальные занятия онлайн и оффлайн</name>
+        <categoryId>20001</categoryId>
+        <description>Индивидуальные уроки проводятся по согласованию с преподавателем в удобное для вас время и формате.</description>
+        <price>4075</price>
+        <currencyId>RUB</currencyId>
+      </offer>
+      <offer id="service_moscow_dolgoletie">
+        <name>Московское Долголетие</name>
+        <categoryId>20001</categoryId>
+        <description>Бесплатные оффлайн‑уроки для участников Московского Долголетия.</description>
+        <price>0</price>
+        <currencyId>RUB</currencyId>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
