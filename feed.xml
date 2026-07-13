@@ -1,34 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2024-04-27">
-  <shop>
-    <name>LEWIS FOREMAN SCHOOL</name>
-    <company>LEWIS FOREMAN SCHOOL</company>
-    <url>https://lewisforemanschool.ru</url>
+<yml_catalog xmlns="http://webmaster.yandex.ru/schemas/feed/5.0/" date="2024-04-27">
+  <shop version="2.0">
+    <name>LEWIS FORMAN SCHOOL</name>
+    <company>LEWIS FORMAN SCHOOL</company>
+    <url>https://lewisforemanschool.ru/</url>
     <categories>
-      <category id="20000">Образование</category>
-      <category id="20001" parentId="20000">Английский язык</category>
+      <category id="1">Английский язык</category>
+      <category id="2" parentId="1">Для дошкольников</category>
+      <category id="3" parentId="1">Для школьников</category>
+      <category id="4" parentId="1">Для взрослых</category>
+      <category id="5" parentId="1">Для пенсионеров</category>
     </categories>
     <offers>
-      <offer id="service_group_1">
-        <name>Групповые занятия онлайн и оффлайн</name>
-        <categoryId>20001</categoryId>
-        <description>Занятия в группе проводятся при любом составе. Если участники не могут посетить урок, занятия проходят индивидуально по цене группы. Правило действует и для новых групп.</description>
-        <price>2665</price>
+      <!-- Английский для дошкольников (группа) -->
+      <offer id="201" available="true">
+        <url>https://lewisforemanschool.ru/program/kids4</url>
+        <name>Английский для дошкольников — групповые занятия</name>
+        <price>1865</price>
         <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <description>Занятия для дошкольников в игровой форме, развитие базовых навыков английского.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Группа</param>
+        <param name="Целевая аудитория">Дошкольники</param>
       </offer>
-      <offer id="service_group_2">
-        <name>Индивидуальные занятия онлайн и оффлайн</name>
-        <categoryId>20001</categoryId>
-        <description>Индивидуальные уроки проводятся по согласованию с преподавателем в удобное для вас время и формате.</description>
-        <price>4075</price>
+
+      <!-- Английский для дошкольников (индивидуально) -->
+      <offer id="202" available="true">
+        <url>https://lewisforemanschool.ru/program/kids4</url>
+        <name>Английский для дошкольников — индивидуальные занятия</name>
+        <price>2845</price>
         <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <description>Персональные занятия для дошкольников с учётом индивидуальных особенностей ребёнка.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Индивидуально</param>
+        <param name="Целевая аудитория">Дошкольники</param>
       </offer>
-      <offer id="service_moscow_dolgoletie">
-        <name>Московское Долголетие</name>
-        <categoryId>20001</categoryId>
-        <description>Бесплатные оффлайн‑уроки для участников Московского Долголетия.</description>
+
+      <!-- Английский для школьников (группа) -->
+      <offer id="301" available="true">
+        <url>https://lewisforemanschool.ru/program/kidsprogram</url>
+        <name>Английский для школьников — групповые занятия</name>
+        <price>1865</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <description>Программа для школьников, направленная на развитие разговорных навыков и грамматики.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Группа</param>
+        <param name="Целевая аудитория">Школьники</param>
+      </offer>
+
+      <!-- Английский для школьников (индивидуально) -->
+      <offer id="302" available="true">
+        <url>https://lewisforemanschool.ru/program/kidsprogram</url>
+        <name>Английский для школьников — индивидуальные занятия</name>
+        <price>2845</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <description>Индивидуальные занятия для школьников с адаптацией программы под уровень и цели ученика.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Индивидуально</param>
+        <param name="Целевая аудитория">Школьники</param>
+      </offer>
+
+      <!-- Английский для взрослых (группа) -->
+      <offer id="401" available="true">
+        <url>http://lewisforemanschool.ru/program/adults</url>
+        <name>Английский для взрослых — групповые занятия</name>
+        <price>1865</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <description>Групповые курсы для взрослых: от начального до продвинутого уровня.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Группа</param>
+        <param name="Целевая аудитория">Взрослые</param>
+      </offer>
+
+      <!-- Английский для взрослых (индивидуально) -->
+      <offer id="402" available="true">
+        <url>http://lewisforemanschool.ru/program/adults</url>
+        <name>Английский для взрослых — индивидуальные занятия</name>
+        <price>2845</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <description>Персональный подход к изучению английского для взрослых, гибкая программа.</description>
+        <param name="Продолжительность курса">минимум 3 месяца</param>
+        <param name="План">2 занятия в неделю по 60 минут</param>
+        <param name="Формат">Индивидуально</param>
+        <param name="Целевая аудитория">Взрослые</param>
+      </offer>
+
+      <!-- Английский для пенсионеров — проект «Московское долголетие» -->
+      <offer id="501" available="true">
+        <url>https://lewisforemanschool.ru/projects/dolgoletie</url>
+        <name>Английский для пенсионеров — проект «Московское долголетие»</name>
         <price>0</price>
         <currencyId>RUB</currencyId>
+        <categoryId>5</categoryId>
+        <description>Бесплатные занятия английским языком для пенсионеров в рамках проекта «Московское долголетие».</description>
+        <param name="Продолжительность курса">в соответствии с планом проекта (минимум 3 месяца)</param>
+        <param name="План">по расписанию проекта, занятия по 60 минут</param>
+        <param name="Формат">Группа</param>
+        <param name="Целевая аудитория">Пенсионеры</param>
       </offer>
     </offers>
   </shop>
