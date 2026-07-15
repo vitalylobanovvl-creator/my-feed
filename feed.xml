@@ -70,7 +70,7 @@
 <!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
 <param name="Часы в неделю">2</param>
 <!-- Описание курса -->
-<https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
 </offer>
 <offer id="2" available="true">
   <url>https://lewisforemanschool.ru/program/kids4</url>
