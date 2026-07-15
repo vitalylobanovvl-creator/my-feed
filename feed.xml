@@ -48,7 +48,7 @@
 <param name="Ближайшая дата">2026-08-01</param>
 <param name="Продолжительность" unit="месяц">1</param>
 <!-- Программа обучения -->
-<param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="24">
+<param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
 <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
 </param>
 <!-- Формат и методы обучения -->
@@ -71,6 +71,7 @@
 <param name="Часы в неделю">2</param>
 <!-- Описание курса -->
 <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="2" available="true">
   <url>https://lewisforemanschool.ru/program/kids4</url>
@@ -102,6 +103,7 @@
   <param name="Результат обучения">Сертификат</param>
   <param name="Часы в неделю">2</param>
   <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="3">
   <name>Английский для дошкольников — групповые занятия</name>
@@ -117,7 +119,7 @@
   <param name="Ежемесячная цена по скидке">14155</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="24">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат обучения">В группе с наставником</param>
@@ -131,8 +133,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param> <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="4" available="true">
   <name>Английский для школьников — групповые занятия</name>
@@ -148,7 +150,7 @@
   <param name="Ежемесячная цена по скидке">1865</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="10">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат обучения">Группа</param>
@@ -162,8 +164,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="5" available="true">
   <name>Английский для школьников — индивидуальные занятия</name>
@@ -179,7 +181,7 @@
   <param name="Ежемесячная цена по скидке">2845</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="10">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат">Индивидуально</param>
@@ -193,8 +195,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="6" available="true">
   <name>Английский для взрослых — групповые занятия</name>
@@ -210,7 +212,7 @@
   <param name="Ежемесячная цена по скидке">1865</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="10">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат обучения">Группа</param>
@@ -224,8 +226,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="7" available="true">
   <name>Английский для взрослых — индивидуальные занятия</name>
@@ -241,7 +243,7 @@
   <param name="Ежемесячная цена по скидке">2845</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="10">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат">Индивидуально</param>
@@ -255,8 +257,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 <offer id="8" available="true">
   <name>Английский для пенсионеров — бесплатные занятия - проект Московское Долголетие</name>
@@ -268,7 +270,7 @@
   <param name="Дополнительная категория">10018</param>
   <param name="Ближайшая дата">2026-08-01</param>
   <param name="Продолжительность" unit="месяц">1</param>
-  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="10">
+  <param name="План" order="1" unit="Более 50 упражнений на развитие всех навыков" hours="8">
     <![CDATA[ Только у нас нестандратные тренировки на запоминание слов и правил, чтобы довести до автоматизма использование всего нового материала ]]>
   </param>
   <param name="Формат">Индивидуально</param>
@@ -282,8 +284,8 @@
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
   <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Лучший курс по английскому</description>
 </offer>
 </offers>
 </shop>
