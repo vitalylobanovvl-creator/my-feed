@@ -5,261 +5,43 @@
 <url>https://lewisforemanschool.ru/</url>
 <email>info@lewisforemanschool.ru</email>
 <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Онлайн школа по изучению английского языка</description>
+<description>Онлайн платформа по изучению английского языка</description>
 <currencies>
 <currency id="RUR" rate="1"/>
 </currencies>
 <!-- Наборы курсов, на которые будет ссылка в описании курса -->
 <sets>
 <set id="s1">
-<name>Курсы английского для дошкольников</name>
-<url>https://lewisforemanschool.ru/program/kids4</url>
+<name>Платформа для изучения английского языка для разных уровней</name>
+<url>https://lewisforemanschool.ru/lfs/intro</url>
 </set>
 <set id="s2">
-<name>Курсы английского для школьников</name>
-<url>https://lewisforemanschool.ru/program/kidsprogram</url>
-</set>
-<set id="s3">
-<name>Курсы английского для взрослых</name>
-<url>http://lewisforemanschool.ru/adults</url>
-</set>
-<set id="s4">
-<name>Курсы английского для пенсионеров - проект Московское Долголетие</name>
-<url>https://lewisforemanschool.ru/projects/dolgoletie</url>
+<name>Обучение по видео</name>
+<url>https://lewisforemanschool.ru/projects/videoreport</url>
 </set>
 </sets>
 <offers>
 <offer id="1">
-<name>Английский для дошкольников — групповые занятия</name>
-<url>https://lewisforemanschool.ru/program/kids4</url>
+<name>Большой кататлог заданий для изучения английского для разных уровней</name>
+<url>https://lewisforemanschool.ru/lfs/intro</url>
 <categoryId>10018</categoryId>
 <!-- Обязательная ссылка на категорию -->
 <param name="Дополнительная категория">10018</param>
 <set-ids>s1</set-ids>
 <!-- Можно указать несколько наборов через запятую -->
 <!-- Общая цена курса -->
-<price>14920</price>
-<currencyId>RUR</currencyId>
-<param name="Цена по скидке">14155</param>
-<param name="Дата окончания скидки">2026-12-31</param>
-<param name="Ежемесячная цена">14920</param>
-<param name="Ежемесячная цена по скидке">14155</param>
-<!-- Сроки курсов -->
-<param name="Ближайшая дата">2026-08-01</param>
-<param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Работа с алфавитом" hours="8">Мы тренируем написание и запоминание букв вместе со словами, которые начинаются с этих букв. Ребенок запоминает не только буквы, но и еще десятки слов через разные рабочие листы для алфавита</param>
-<param name="План" order="2" unit="Игра Саймон Сэз" hours="8">В начале каждого урока с помощью игры Simon Says  мы учим ребят понимать на слух и запоминать новые слова, которые есть в классе</param>
-<param name="План" order="3" unit="Работа со словами" hours="8">Когда ребенок освоил буквы (или часть букв английского алфавита), можно переходить к отдельным словам, чтобы ребенок мог их найти, записать, прочитать, перевести с английского языка на русский</param>
-<param name="План" order="4" unit="Работа с текстами" hours="8">Если теперь английские слова понятны, то можно начать читать отдельные предложения, в которых эти слова используются и соответственно тренировать произнесение целых фраз с этими словами, что мы и делаем на каждом уроке</param>
-<!-- Формат и методы обучения -->
-<param name="Формат обучения">В группе с наставником</param>
-<!-- Возможные значения - "Самостоятельно", "Самостоятельно с наставником", "В группе с наставником", "С преподавателем" -->
-<param name="Есть вебинары">true</param>
-<param name="Есть домашние работы">true</param>
-<param name="Есть видеоуроки">true</param>
-<param name="Есть текстовые уроки">true</param>
-<param name="Есть тренажеры">true</param>
-<param name="Есть сообщество">true</param>
-<!-- Параметры курса -->
-<param name="Сложность">Для новичков</param>
-<!-- Возможные значения - "Для новичков" или "Для опытных" -->
-<param name="Тип обучения">Курс</param>
-<!-- Возможные значения - "Курс" или "Профессия" -->
-<param name="Есть бесплатная часть">true</param>
-<param name="Результат обучения">Сертификат</param>
-<!-- Возможные значения - "Сертификат", "Диплом", "Удостоверение" -->
-<param name="Часы в неделю">2</param>
-<!-- Описание курса -->
-<picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
-</offer>
-<offer id="2" available="true">
-  <url>https://lewisforemanschool.ru/program/kids4</url>
-  <name>Английский для дошкольников — индивидуальные занятия</name>
-  <categoryId>10018</categoryId>
-  <set-ids>s1</set-ids>
-  <price>2845</price>
-  <currencyId>RUB</currencyId>
-  <param name="Дополнительная категория">10018</param>
-  <param name="Цена по скидке">2845</param>
-  <param name="Дата окончания скидки">2026-12-31</param>
-  <param name="Ежемесячная цена">2845</param>
-  <param name="Ежемесячная цена по скидке">2845</param>
-  <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Блок 1" hours="8">Изучение алфавита></param>
-<param name="План" order="2" unit="Блок 2" hours="8">Игровые задания></param>
-<param name="План" order="3" unit="Блок 3" hours="8">Новые слова></param>
-<param name="План" order="4" unit="Блок 4" hours="8">Простые тексты с новыми словами></param>
-  <param name="Формат обучения">С преподавателем</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
-  <param name="Есть видеоуроки">true</param>
-  <param name="Есть текстовые уроки">true</param>
-  <param name="Есть тренажеры">true</param>
-  <param name="Есть сообщество">true</param>
-  <param name="Сложность">Для новичков</param>
-  <param name="Тип обучения">Курс</param>
-  <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param> <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
-</offer>
-<offer id="3">
-  <name>Английский для школьников — групповые занятия</name>
-  <url>https://lewisforemanschool.ru/program/kidsprogram</url>
-  <categoryId>10018</categoryId>
-  <set-ids>s2</set-ids>
-  <price>14920</price>
-  <currencyId>RUR</currencyId>
-  <param name="Дополнительная категория">10018</param>
-  <param name="Цена по скидке">14155</param>
-  <param name="Дата окончания скидки">2026-12-31</param>
-  <param name="Ежемесячная цена">14920</param>
-  <param name="Ежемесячная цена по скидке">14155</param>
-  <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Вводная часть" hours="8">Мы используем разработанные нами рабочие листы, в которых используются слова из предыдущего упражнения, т.е. ребенок читает, записывает и переводит те слова, которые перед этим научился воспринимать на слух.</param>
-<param name="План" order="2" unit="Основная часть" hours="8">Мы создали серию упражнений, благодаря которым ученик может запомнить много новых слов, и пересказать прочитанный текст легко</param>
-<param name="План" order="3" unit="Заключительная часть" hours="8">Когда слова и правила запомнились и оттренированы в речи, можно использовать их в пересказе или обсуждении только что разобранного материала</param>
-  <param name="Формат обучения">В группе с наставником</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
-  <param name="Есть видеоуроки">true</param>
-  <param name="Есть текстовые уроки">true</param>
-  <param name="Есть тренажеры">true</param>
-  <param name="Есть сообщество">true</param>
-  <param name="Сложность">Для новичков</param>
-  <param name="Тип обучения">Курс</param>
-  <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>
-<picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description> 
-</offer>
-<offer id="4" available="true">
-  <url>https://lewisforemanschool.ru/program/kidsprogram</url>
-  <name>Английский для школьников — индивидуальные занятия</name>
-  <categoryId>10018</categoryId>
-  <set-ids>s1</set-ids>
-  <price>2845</price>
-  <currencyId>RUB</currencyId>
-  <param name="Дополнительная категория">10018</param>
-  <param name="Цена по скидке">2845</param>
-  <param name="Дата окончания скидки">2026-12-31</param>
-  <param name="Ежемесячная цена">2845</param>
-  <param name="Ежемесячная цена по скидке">2845</param>
-  <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Этап 1" hours="8">Введение новой лексики></param>
-<param name="План" order="2" unit="Этап 2" hours="8">Введение новых правил грамматики></param>
-<param name="План" order="3" unit="Этап 3" hours="8">Упражнения на закрепление новых слов и правил грамматики></param>
-<param name="План" order="4" unit="Этап 4" hours="8">Упражнения на отработку устных навыков в виде перессказа></param>
-  <param name="Формат обучения">С преподавателем</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
-  <param name="Есть видеоуроки">true</param>
-  <param name="Есть текстовые уроки">true</param>
-  <param name="Есть тренажеры">true</param>
-  <param name="Есть сообщество">true</param>
-  <param name="Сложность">Для новичков</param>
-  <param name="Тип обучения">Курс</param>
-  <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param> <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
-</offer>
-<offer id="5" available="true">
-  <name>Английский для взрослых — групповые занятия</name>
-  <url>http://lewisforemanschool.ru/adults</url>
-  <categoryId>10018</categoryId>
-  <set-ids>s3</set-ids>
-  <price>1865</price>
-  <currencyId>RUB</currencyId>
-  <param name="Дополнительная категория">10018</param>
-  <param name="Цена по скидке">1865</param>
-  <param name="Дата окончания скидки">2026-12-31</param>
-  <param name="Ежемесячная цена">1865</param>
-  <param name="Ежемесячная цена по скидке">1865</param>
-  <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Работаем с текстами разной сложности" hours="8">
-<![CDATA[ А также тренируем новые слова и конструкции по уникальному методу LFS — тысячи интересных текстов в нашем каталоге]]>
-</param>
-<param name="План" order="2" unit="Работаем с аудио разной сложности" hours="8">
-<![CDATA[ А также тренируем новые слова и конструкции по уникальному методу LFS — сотни интересных аудио диалогов в нашем каталоге]]>
-</param>
-<param name="План" order="3" unit="Работаем с грамматикой разной сложности" hours="8">
-<![CDATA[ А также тренируем новые конструкции по уникальному методу LFS — сотни интересных упражнений в нашем каталоге]]>
-</param>
-  <param name="Формат обучения">В группе с наставником</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
-  <param name="Есть видеоуроки">true</param>
-  <param name="Есть текстовые уроки">true</param>
-  <param name="Есть тренажеры">true</param>
-  <param name="Есть сообщество">true</param>
-  <param name="Сложность">Для новичков</param>
-  <param name="Тип обучения">Курс</param>
-  <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
-</offer>
-<offer id="6" available="true">
-  <name>Английский для взрослых — индивидуальные занятия</name>
-  <url>http://lewisforemanschool.ru/adults</url>
-  <categoryId>10018</categoryId>
-  <set-ids>s3</set-ids>
-  <price>2845</price>
-  <currencyId>RUB</currencyId>
-  <param name="Дополнительная категория">10018</param>
-  <param name="Цена по скидке">2845</param>
-  <param name="Дата окончания скидки">2026-12-31</param>
-  <param name="Ежемесячная цена">2845</param>
-  <param name="Ежемесячная цена по скидке">2845</param>
-  <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
-<!-- Программа обучения -->
-<param name="План" order="1" unit="Раздел 1" hours="8">Подборка текстов для расширения словарного запаса</param>
-<param name="План" order="2" unit="Раздел 2" hours="8">Тренировки на запоминание новых слов и выражений</param>
-<param name="План" order="3" unit="Раздел 3" hours="8">Упражнения на устную речь - перессказ прочитанных текстов</param>
-  <param name="Формат">С преподавателем</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
-  <param name="Есть видеоуроки">true</param>
-  <param name="Есть текстовые уроки">true</param>
-  <param name="Есть тренажеры">true</param>
-  <param name="Есть сообщество">true</param>
-  <param name="Сложность">Для новичков</param>
-  <param name="Тип обучения">Курс</param>
-  <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
-</offer>
-<offer id="7" available="true">
-  <name>Английский для пенсионеров — бесплатные занятия - проект Московское Долголетие</name>
-  <url>http://lewisforemanschool.ru/projects/dolgoletie</url>
-  <categoryId>10018</categoryId>
-  <set-ids>s4</set-ids>
-  <price>0</price>
+ <price>0</price>
   <currencyId>RUB</currencyId>
   <param name="Дополнительная категория">10018</param>
   <param name="Ближайшая дата">2026-08-01</param>
-  <param name="Продолжительность" unit="месяц">1</param>
+  <param name="Продолжительность" unit="месяц">12</param>
 <!-- Программа обучения -->
-<param name="План" order="1" unit="Модуль 1" hours="8">Изучаем английский по текстам разной сложности</param>
-<param name="План" order="2" unit="Модуль 2" hours="8">Упражнения на запоминание новых по методике LFS</param>
-<param name="План" order="3" unit="Модуль 3" hours="8">Пересказ прочитанных текстов в паре с другими участниками</param>
-  <param name="Формат">В группе с наставником</param>
-  <param name="Есть вебинары">true</param>
-  <param name="Есть домашние работы">true</param>
+<param name="План" order="1" unit="Модуль 1" hours="160">Изучаем английский по текстам разной сложности</param>
+<param name="План" order="2" unit="Модуль 2" hours="160">Изучаем английский по аудио разной сложности</param>
+<param name="План" order="3" unit="Модуль 3" hours="160">Изучаем английский по переводным заданиям разной сложности</param>
+  <param name="Формат">Самостоятельно</param>
+  <param name="Есть вебинары">false</param>
+  <param name="Есть домашние работы">false</param>
   <param name="Есть видеоуроки">true</param>
   <param name="Есть текстовые уроки">true</param>
   <param name="Есть тренажеры">true</param>
@@ -267,9 +49,39 @@
   <param name="Сложность">Для новичков</param>
   <param name="Тип обучения">Курс</param>
   <param name="Есть бесплатная часть">true</param>
-  <param name="Результат обучения">Сертификат</param>
-  <param name="Часы в неделю">2</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
-<description>Лучший курс по английскому</description>
+  <param name="Часы в неделю">10</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Изучай английский самостоятельно по более 10 000 000 заданиям из каталога</description>
+</offer>
+  <offer id="2">
+<name>Видео репортажи на английскм из разных городов России и мира</name>
+<url>https://lewisforemanschool.ru/projects/videoreport</url>
+<categoryId>10018</categoryId>
+<!-- Обязательная ссылка на категорию -->
+<param name="Дополнительная категория">10018</param>
+<set-ids>s2</set-ids>
+<!-- Можно указать несколько наборов через запятую -->
+<!-- Общая цена курса -->
+ <price>0</price>
+  <currencyId>RUB</currencyId>
+  <param name="Дополнительная категория">10018</param>
+  <param name="Ближайшая дата">2026-08-01</param>
+  <param name="Продолжительность" unit="месяц">12</param>
+<!-- Программа обучения -->
+<param name="План" order="1" unit="Модуль 1" hours="20">Репортажи из Москвы</param>
+<param name="План" order="2" unit="Модуль 2" hours="20">Репортажи из Санкт-Петербурга</param>
+<param name="План" order="3" unit="Модуль 3" hours="20">Репортажи из Минска</param>
+  <param name="Формат">Самостоятельно</param>
+  <param name="Есть вебинары">false</param>
+  <param name="Есть домашние работы">false</param>
+  <param name="Есть видеоуроки">true</param>
+  <param name="Есть текстовые уроки">true</param>
+  <param name="Есть тренажеры">false</param>
+  <param name="Есть сообщество">true</param>
+  <param name="Сложность">Для новичков</param>
+  <param name="Тип обучения">Курс</param>
+  <param name="Есть бесплатная часть">true</param>
+  <param name="Часы в неделю">10</param>  <picture>https://img1.creatium.ru/disk2/6c/f5/f1/f30fd0e3ab4a4dd233d9df6f26a713cb2d/back_to_school.png</picture>
+<description>Изучай английский самостоятельно по видео репортажам из разных городов России и мира</description>
 </offer>
 </offers>
 </shop>
